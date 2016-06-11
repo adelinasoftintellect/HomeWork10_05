@@ -8,6 +8,7 @@ public class Main {
 		System.out.println("Enter the expression: ");
 		String s = input.nextLine();
 		System.out.println(balancedParenthensies(s));
+		input.close();
 	}
 
 	public static boolean balancedParenthensies(String s) {
